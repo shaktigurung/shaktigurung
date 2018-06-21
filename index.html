@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--Important Meta Tags-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width,initial-scale=1">
+
+    <!--Title-->
+    <title>Shakti Gurung</title>
+
+    <!-- Favicon-->
+    <link rel="shortcut icon" type="image/png" href="img/favicon/favicon.png">
+
+    <!--Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico|Yantramanav" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+
+    <!--Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!--Preloader-->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+   
+    <!--Home-->
+    <section id="home">
+
+        <div class="menubar">
+             <div class="logo">
+                 <img src="img/preloader/Triangles.gif">
+             </div>
+            <span class="open-slide">
+              <a href="#" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#B5A992" stroke-width="5"/>
+                    <path d="M0,14 30,14" stroke="#B5A992" stroke-width="5"/>
+                    <path d="M0,23 30,23" stroke="#B5A992" stroke-width="5"/>
+                </svg>
+              </a>
+            </span>
+
+            <ul class="menubar-nav">
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#home">Home</a></li>
+            </ul>
+        </div>
+
+        <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skill">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <!--Background Video-->
+        <div class="fullscreen-video-wrap">
+            <video id="home-bg-video" poster="video/home.jpeg" autoplay loop muted>
+            <source src="video/home.mov" type="video/mov">
+            <source src="video/home.mp4" type="video/mp4">
+        </video>
+        </div>
+
+        <!--Overlay-->
+        <div id="home-overlay"></div>
+
+        <!--Home Content-->
+
+        <div id="home-content">
+            <div id="home-content-inner" class="text-center">
+                <div id="home-heading">
+                    <h1 id="home-heading-1">I 'm</h1><br>
+                    <h1 id="home-heading-2"> Shakti <span>Gurung</span></h1>
+                </div>
+                <div id="home-text">
+                    <p>A Front End Web Developer based in Australia </p>
+                </div>
+                <div id="home-btn">
+                    <a class="btn btn-general btn-home" href="#contact" title="Hire me" role="button">Hire me<i class="far fa-smile"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!--Arrow Down-->
+
+        <a href="#about" id="arrow-down">
+            <i class="fa fa-angle-down"></i>
+    </a>
+
+    </section>
+    <!--Home Ends-->
+    <!--About-->
+    <section id="about" onmouseover="textanimation()">
+
+        <!--About 01-->
+        <div id="about-01">
+            <div class="content-box-lg">
+                <div class="container">
+
+                    <div class="row">
+                        <!--About Left side-->
+                        <div class="col-md-12">
+                            <div id="about-left">
+                                <div class="vertical-heading">
+                                     <h5>Who am I </h5>
+                                     <h2>A <strong> Story </strong><br>About me</h2> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                     <div class="row">
+                        <!--About Right side-->
+                         <div class="col-md-4">
+                            <div class="box1">
+                                <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                                <p>I am a Master's Graduate in Information Technology and currently doing a Fast Track Bootcamp in Coder Academy.</p>
+                            </div>
+                            <div class="box1">
+                                <h3><i class="fas fa-futbol"></i> Sports</h3>
+                                <p>I love playing team games such as cricket and football which enhances my skill to work in a team understanding each others strength and weaknesses and work together towards achieving common goals.</p>
+                            </div>
+                            <div class="box1">
+                                <h3><i class="fas fa-gamepad"></i> Playstation</h3>
+                                <p> I love to play FIFA with friends and family in Playstation which helps me to be focused and competetive.</p>
+                            </div>
+                         </div>
+                        <div class="col-md-4">
+                            <div class="box1">
+                                <h3><i class="fas fa-plane"></i> Travel</h3>
+                                <p>Travelling teaches me to be patience and appreciate the things we have in our lifes.</p>
+                            </div>
+                            <div class="box1">
+                                <h3><i class="fas fa-music"></i> Music</h3>
+                                <p> Music keeps me alive and keeps my heart beating. It is the air I breath.</p>
+                            </div>
+                         </div>
+                         <div class="col-md-4">
+                           <!--Card starts-->
+                            <div class="card">
+                               <div class="img-box">
+                                    <img src="img/about/shaktigurung1.jpg" alt="shaktigurung" class="img-fluid" >
+                                </div>
+                           
+                                <ul class="social-icon">
+                                    <li><a href="https://www.facebook.com/shakti.gurung" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                                    <li><a href="https://codepen.io/ShaktiGurung/" target="_blank"><i class="fab fa-codepen"></i></a></li>
+                                    <li><a href="https://github.com/shaktigurung" target="_blank"><i class="fab fa-github"></i></a></li>
+                                    <li><a href="https://myaccount.google.com/?utm_source=OGB&utm_medium=act" target="_blank"><i class="fab fa-google-plus-square"></i></a></li>
+                                 </ul>
+                                 <div class="details">
+                                     <h2> Shakti Gurung <br> <span> Web Developer </span> </h2>
+                                     <p>" I love to design and create  experiences which will simplify our life." <i class="far fa-comment-alt"></i></p>
+                                 </div>
+                            </div><!--End of Card-->
+                    </div> 
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--About 01 Ends-->
+        <!--About 02-->
+        <div id="about-02">
+            <div class="content-box-md">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="about-item text-center">
+                                <i class="fa fa-rocket"></i>
+                                <h3>Mission</h3>
+                                <hr>
+                                <p>My mission is to get a Web Developer Job where I can get more hands into coding world.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="about-item text-center">
+                                <i class="fa fa-eye"></i>
+                                <h3>Vission</h3>
+                                <hr>
+                                <p>My Vision is to work towards becoming a Full Stack Developer.</p>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="about-item text-center">
+                                <i class="fa fa-file-code"></i>
+                                <h3>Passion</h3>
+                                <hr>
+                                <p>My Passion is to create a Web Application which will simplify the work load with minimum hassle.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--About 02 Ends-->
+    </section>
+    <!--About Ends--> 
+    <!--Skills-->
+<section id="skill" onmouseover="skillbar()">
+    <div class="content-box-lg">
+        <div class="container">
+            <div class="row">
+
+                <!--Skill Left Side -->
+                <div class="col-md-4 ">
+                    <div id="skill-left">
+                        <div class="vertical-heading">
+                            <h5>What I Know </h5>
+                            <h2> My <strong> Skill </strong><br>Proficiency</h2>
+                        </div>
+                    </div>
+                </div>
+                <!--Skill Right Side -->
+                <div class="col-md-8">
+                    <div class="about-right">
+                            <h2> " Working Experiences with HTML, CSS, JavaScript, PHP and JQuery. Familiar with Bootstrap framework and various Content Management System such as Wordpress and Drupal. GIT and GITHUB used as a Version Control system."<i class="far fa-comment-alt"></i> </h2>
+                    </div>
+                </div>
+            </div>
+           
+            <!--Progress Skill bar-->
+            <div class="row">
+                   
+                   <div class="col-md-4">
+                    <div class="skillbar ">
+                                <div class="skillheader text-center">
+                                    <i class="fas fa-desktop"></i>
+                                    <h3>Front End </h3>
+                                </div>
+                           
+                                <div class="main">
+                                    <div class="progressBar">
+                                        <div class="title htmlColor"><i class="fab fa-html5"></i> HTML5</div>
+                                        <div class="progress html"></div>
+                                        <div class="progress_value">90%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="title cssColor"><i class="fab fa-css3-alt"></i> CSS3</div>
+                                        <div class="progress css"></div>
+                                        <div class="progress_value">80%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="title jsColor"><i class="fab fa-js"></i> JavaScript</div>
+                                        <div class="progress js"></div>
+                                        <div class="progress_value">70%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="title jqueryColor"><i class="fab fa-audible"></i> Jquery</div>
+                                        <div class="progress jquery"></div>
+                                        <div class="progress_value">70%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="title bootstrapColor"><i class="fas fa-bold"></i> Bootstrap</div>
+                                        <div class="progress bootstrap"></div>
+                                        <div class="progress_value">85%</div>
+                                    </div>
+                                </div>
+                     </div>
+                </div>
+                
+                   <div class="col-md-4">
+                   <div class="skillbar">
+                                 <div class="skillheader text-center">
+                                    <i class="fas fa-database"></i>
+                                    <h3> Back End </h3>
+                                </div>
+                                <div class="main">
+                                    <div class="progressBar">
+                                        <div class="title phpColor"><i class="fab fa-php"></i> PHP</div>
+                                        <div class="progress php"></div>
+                                        <div class="progress_value">75%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="title mysqlColor"><i class="fas fa-database"></i> MySQL</div>
+                                        <div class="progress mysql"></div>
+                                        <div class="progress_value">60%</div>
+                                    </div>
+                                </div>
+                       </div>
+                </div>
+                <div class="col-md-4">
+                   <div class="skillbar">
+                                 <div class="skillheader text-center">
+                                        <i class="fas fa-server"></i>
+                                        <h3>CMS & Version Control System </h3>
+                                </div>
+                                <div class="main">
+                                    <div class="progressBar">
+                                        <div class="title drupalColor"><i class="fab fa-drupal"></i> Drupal</div>
+                                        <div class="progress drupal"></div>
+                                        <div class="progress_value">80%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="title wordpressColor"><i class="fab fa-wordpress"></i> Wordpress</div>
+                                        <div class="progress wordpress"></div>
+                                        <div class="progress_value">75%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="title gitColor"><i class="fab fa-git-square"></i> Git </div>
+                                        <div class="progress git"></div>
+                                        <div class="progress_value">80%</div>
+                                    </div>
+                                    <div class="progressBar">
+                                        <div class="title githubColor"><i class="fab fa-github"></i> Github</div>
+                                        <div class="progress github"></div>
+                                        <div class="progress_value">80%</div>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+            <!--Progress Skill bar Ends-->
+        </div>
+    </div>
+</section>
+    <!--Skills End-->
+    <!--Portfolio-->
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <!--About Left side-->
+            <div class="col-md-6">
+                <div id="about-left">
+                    <div class="vertical-heading">
+                        <h5>What I do </h5>
+                        <h2>A <strong> Portfolio </strong><br>of my work</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+             
+ <div class="content-area layout">
+        <div class="container">
+            <div class="row nomargin">
+                <div class="col-md-4 nopadding">
+                    <a href="http://www.nccb.com.au" target="_blank">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <div class="border">
+                                    <div class="hover-txt">
+                                        <h4>Nccb</h4>
+                                        <span> Cricket Club Website</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="https://source.unsplash.com/1600x900/?webdevelopment" class="img-fluid" alt="...">
+                        </div> 
+                    </a> 
+                 </div>
+                 <div class="col-md-4 nopadding">
+                    <a href="" target="_blank">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <div class="border">
+                                    <div class="hover-txt">
+                                        <h4>RS Photography</h4>
+                                        <span>Photographer Portfolio</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="https://source.unsplash.com/1600x900/?photographer" class="img-fluid" alt="...">
+                        </div> 
+                    </a> 
+                 </div>
+                 <div class="col-md-4 nopadding">
+                    <a href="http://www.nccb.com.au" target="_blank">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <div class="border">
+                                    <div class="hover-txt">
+                                        <h4>Buy Me</h4>
+                                        <span>E-Commerce Website</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="https://source.unsplash.com/1600x900/?ecommerce" class="img-fluid" alt="...">
+                        </div> 
+                    </a> 
+                 </div>
+               
+            </div> <!--End of first Row
+            <!--Second Row-->
+            <div class="row nomargin">
+                <div class="col-md-4 nopadding">
+                    <a href="http://www.nccb.com.au" target="_blank">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <div class="border">
+                                    <div class="hover-txt">
+                                        <h4>Email Template</h4>
+                                        <span>Wordpress Website</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="https://source.unsplash.com/1600x900/?email-template" class="img-fluid" alt="...">
+                        </div> 
+                    </a> 
+                 </div>
+                 <div class="col-md-4 nopadding">
+                    <a href="http://www.nccb.com.au" target="_blank">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <div class="border">
+                                    <div class="hover-txt">
+                                        <h4>Asian Delicacies</h4>
+                                        <span>Restaurant Website</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="https://source.unsplash.com/1600x900/?restaurant" class="img-fluid" alt="...">
+                        </div> 
+                    </a> 
+                 </div>
+                 <div class="col-md-4 nopadding">
+                    <a href="http://www.nccb.com.au" target="_blank">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <div class="border">
+                                    <div class="hover-txt">
+                                        <h4>Stunning Creation</h4>
+                                        <span>Digital Agency Website</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="https://source.unsplash.com/1600x900/?digital-agency" class="img-fluid" alt="...">
+                        </div> 
+                    </a> 
+                 </div>
+            </div><!--End of Second Row-->
+        </div>
+   </div> 
+        <!--Frame portfolio Ends-->
+   
+   
+</section>
+   <!--Portfolio Ends-->
+   <!--Contact-->
+<section id="contact">
+    <div class="container">
+       <!-- Contact Form Starts-->
+        <div class="formBox">
+         <div class="row">
+             <div class="col-sm-12"> 
+                <div class="contact-title">
+                 <h2><strong>Get In Touch </strong></h2>
+                 <p>Want to work together ? Tell me about your PROJECT</p>
+                 </div>  
+              </div> 
+         </div>
+         <!--Contact Form starts-->
+         <form action="contact.php" class="contact">
+         <div class="row">
+             <div class="col-sm-6">
+                 <div class="inputBox">
+                     <div class="inputText ">First Name</div>
+                     <input type="text" name="firstname" class="input">
+                 </div>
+             </div>
+             <div class="col-sm-6">
+                 <div class="inputBox">
+                     <div class="inputText">Last Name</div>
+                     <input type="text" name="lastname" class="input">
+                 </div>
+             </div>
+         </div>
+         <div class="row">
+             <div class="col-sm-6">
+                 <div class="inputBox">
+                     <div class="inputText">Email</div>
+                     <input type="text" name="email" class="input">
+                 </div>
+             </div>
+             <div class="col-sm-6">
+                 <div class="inputBox">
+                     <div class="inputText">Mobile</div>
+                     <input type="text" name="mobile" class="input">
+                 </div>
+             </div>
+         </div>
+         <div class="row">
+             <div class="col-sm-6">
+                 <div class="inputBox">
+                     <div class="inputText">Message</div>
+                     <textarea class="input" name="message"></textarea>
+                 </div>
+             </div>
+         </div>
+         <div class="row">
+             <div class="col-sm-12">
+                 <input type="submit" value="Send Message" class="button">
+             </div>
+         </div>
+         </form>
+         <!-- Contact Form Ends-->
+         </div>
+         <!--formBox Ends-->
+    </div>
+</section>
+   <!--Contact Ends-->
+   <!--Copyright starts-->
+<section id="copyright">
+    <div class="container">
+         <div class="row">
+              <div class="col-md-12"> 
+               <ul class="social">
+                     <li><a href="https://www.facebook.com/shakti.gurung" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                     <li><a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                     <li><a href="https://codepen.io/ShaktiGurung/" target="_blank"><i class="fab fa-codepen"></i></a></li>
+                     <li><a href="https://github.com/shaktigurung" target="_blank"><i class="fab fa-github"></i></a></li>
+                      <li><a href="https://myaccount.google.com/?utm_source=OGB&utm_medium=act" target="_blank"><i class="fab fa-google-plus-square"></i></a></li>
+                 </ul>
+             </div>
+         </div>
+         <div class="row">
+           <div class="col-md-12"> 
+            <p class="copyright">copyright<i class="fas fa-copyright"></i>shaktigurung2018 </p>
+        </div>
+        </div>
+    </div>
+</section>
+<!--Copyright Ends-->
+   
+    <!-- Jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="js/bootstrap/bootstrap.js"></script>
+    
+     <!-- ScrollReveal JavaScript-->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+   
+    <!--Custom JavaScript-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
